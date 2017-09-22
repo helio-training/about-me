@@ -33,40 +33,39 @@ footer {
 [name="about-me"] {
   display: flex;
   border: 1px solid green;
-}
 
-[name="about-me"] figure,
-[name="about-me"] div {
-  display: flex;
-  flex-direction: column;
-}
+  figure,
+  div {
+    display: flex;
+    flex-direction: column;
+  }
 
-[name="about-me"] figure {
-  flex-grow: 0;
-}
+  figure {
+    flex-grow: 0;
+  }
 
-[name="about-me"] div {
-  display: flex;
-  flex-direction: row;
-  flex-grow: 1;
-}
-
-[name="about-me"] h2,
-[name="about-me"] time {
-  flex-grow: 1;
-  display: flex;
-}
-
-[name="about-me"] time {
-  flex-direction: row-reverse;
-}
+  div {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+  }
 
 
+  h2,
+  time {
+    flex-grow: 1;
+    display: flex;
+  }
 
+  time {
+    flex-direction: row-reverse;
+  }
 
-[name="about-me"] img {
-  width: 300px;
-  transform: rotate(180deg);
+  img {
+    width: 300px;
+    transform: rotate(180deg);
+  }
+
 }
 
 
